@@ -8,6 +8,11 @@ const pageIndex = [
         id: "ilovelampadaire",
         title: "Ilovelampadaire",
         summary: "The Ilovelampadaire (Lucerna viae), also known commonly as the lampyt, is a specimen of the genus Lucerna."
+    },
+    {
+        id: "icosahedra",
+        title: "Icosahedra",
+        summary: "Icosahedra (automatus icosadrus) is a class of robots that were created by Hexahedra They are primarily utilized on discord."
     }
 ]
 function randInt(min, max) {
