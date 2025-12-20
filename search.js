@@ -3,6 +3,11 @@ const pageIndex = [
         id: "hexahedra",
         title: "Hexahedra",
         summary: "hexahedra (homo hexus, also known as cubes, kubés)is a species of sentient cubes with an orange color and no facial features. This species is characterized by falling behind current technology."
+    },
+    {
+        id: "ilovelampadaire",
+        title: "Ilovelampadaire",
+        summary: "The Ilovelampadaire (Lucerna viae), also known commonly as the lampyt, is a specimen of the genus Lucerna."
     }
 ]
 function randInt(min, max) {
