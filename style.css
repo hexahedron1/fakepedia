@@ -40,6 +40,7 @@ a {
 }
 a.disabled {
     color: rgb(170,0,0);
+    pointer-events:painted;
 }
 a.disabled:hover {
     color: rgb(255,85,85);
