@@ -13,6 +13,11 @@ const pageIndex = [
         id: "icosahedra",
         title: "Icosahedra",
         summary: "Icosahedra (automatus icosadrus) is a class of robots that were created by Hexahedra They are primarily utilized on discord."
+    },
+    {
+        id: "nahui",
+        title: "Nahui",
+        summary: "Nahui is a quaint, beautiful village in the mountains of Peru. Nahui is located at -14.408, -71.3 in the Andes mountain range."
     }
 ]
 function randInt(min, max) {
