@@ -1,10 +1,5 @@
 const pageIndex = [
     {
-        id: "f_template",
-        title: "Template",
-        summary: "This page serves as a template for making other pages.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
-    },
-    {
         id: "hexahedra",
         title: "Hexahedra",
         summary: "hexahedra (homo hexus, also known as cubes, kubés)is a species of sentient cubes with an orange color and no facial features. This species is characterized by falling behind current technology."
