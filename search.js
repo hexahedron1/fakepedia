@@ -21,7 +21,7 @@ function search() {
     for (var i = 0; i < pageIndex.length; i++) {
         var page = pageIndex[i]
         if (page.title.toLowerCase().includes(query.toLowerCase()) || page.summary.toLowerCase().includes(query.toLowerCase())) {
-            results.innerHTML += `<br><a href="p/${page.id}/index.html">${page.title}</a><br>
+            results.innerHTML += `<br><a href="p/${page.id}/">${page.title}</a><br>
             ${page.summary}<br>`;
             count++
         }
