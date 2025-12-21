@@ -28,6 +28,11 @@ const pageIndex = [
         id: "numbers",
         title: "Numbers",
         summary: "Numbers are cryptic texts used by Mathematicians to obfuscate their communications. They use arabic numerals and may contain +, -, /, :, ·, %, =, greek letters, and small numerals."
+    },
+    {
+        id: "marisbots",
+        title: "History of Mari's bots",
+        summary: "The history of Mari's bots is generalized down to Mari copying features she finds cool and also sometimes doing it with AI."
     }
 ]
 function randInt(min, max) {
