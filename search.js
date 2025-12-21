@@ -23,6 +23,11 @@ const pageIndex = [
         id: "the_flock",
         title: "The Flock",
         summary: "The Flock, often referred to as the friend group, is a group of creatures that gathered into a group and have been communicating since approximately 2021."
+    },
+    {
+        id: "numbers",
+        title: "Numbers",
+        summary: "Numbers are cryptic texts used by Mathematicians to obfuscate their communications. They use arabic numerals and may contain +, -, /, :, ·, %, =, greek letters, and small numerals."
     }
 ]
 function randInt(min, max) {
