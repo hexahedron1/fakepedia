@@ -18,6 +18,11 @@ const pageIndex = [
         id: "nahui",
         title: "Nahui",
         summary: "Nahui is a quaint, beautiful village in the mountains of Peru. Nahui is located at -14.408, -71.3 in the Andes mountain range."
+    },
+    {
+        id: "the_flock",
+        title: "The Flock",
+        summary: "The Flock, often referred to as the friend group, is a group of creatures that gathered into a group and have been communicating since approximately 2021."
     }
 ]
 function randInt(min, max) {
