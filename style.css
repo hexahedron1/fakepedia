@@ -87,6 +87,10 @@ sup {
     font-size: 8px;
     font-family: 'PxPlus IBM EGA 8x8';
 }
+sub {
+    font-size: 8px;
+    font-family: 'PxPlus IBM EGA 8x8';
+}
 .box {
     border-style: double;
     border-width: 3px;
