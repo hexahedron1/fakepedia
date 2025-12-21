@@ -37,9 +37,6 @@ function randPage() {
     var page = pageIndex[randInt(0, pageIndex.length)]
     window.location.href = page == undefined ? "404.html" : `p/${page.id}/index.html`
 }
-function latestPage() {
-    window.location.href = page == undefined ? "404.html" : `p/${pageIndex[pageIndex.length-1].id}/index.html`
-}
 // shitcode perhaps but it works
 function search() {
     var query = document.getElementById("queryBox").value
@@ -64,4 +61,12 @@ if (countLabel != undefined) {
         if (!page.id.startsWith("f_")) count++
     }
     countLabel.innerText = count
+}
+var lpTitle = document.getElementById("lptitle")
+var lpContent = document.getElementById("lpcontent")
+if (lpTitle != undefined && lpContent != undefined) {
+    var page = pageIndex[pageIndex.length-1]
+    lpTitle.innerHTML = page.title,
+    lpTitle.href = `p/${page.id}/`
+    lpContent.innerHTML = page.summary
 }
