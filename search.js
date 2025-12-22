@@ -33,6 +33,11 @@ const pageIndex = [
         id: "marisbots",
         title: "History of Mari's bots",
         summary: "The history of Mari's bots is generalized down to Mari copying features she finds cool and also sometimes doing it with AI."
+    },
+    {
+    id: "dtpls",
+    title: "dtpls",
+    summary: "dtpls (species homo didesicus, dibbledop, (s)quiggletop, pibbleShop) is a species of humanoid machines originating in the chinese ethnostate of Romania."
     }
 ]
 function randInt(min, max) {
