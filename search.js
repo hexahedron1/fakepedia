@@ -43,6 +43,11 @@ const pageIndex = [
         id: "the_communal_novel",
         title: "The Communal Novel",
         summary: "A story that can be continued by anyone a few sentences at a time.",
+    },
+    {
+        id: "rat_horde",
+        title: "Rat Horde",
+        summary: "A is a term used to refer to a cyberattack involving multiple computers being infected with remote access trojans"
     }
 ]
 function randInt(min, max) {
