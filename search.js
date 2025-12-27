@@ -33,6 +33,11 @@ const pageIndex = [
         id: "marisbots",
         title: "History of Mari's bots",
         summary: "The history of Mari's bots is generalized down to Mari copying features she finds cool and also sometimes doing it with AI."
+    },
+    {
+        id: "the_communal_novel",
+        title: "The Communal Novel",
+        summary: "A story that can be continued by anyone a few sentences at a time."
     }
 ]
 function randInt(min, max) {
