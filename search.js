@@ -37,7 +37,12 @@ const pageIndex = [
     {
         id: "the_communal_novel",
         title: "The Communal Novel",
-        summary: "A story that can be continued by anyone a few sentences at a time."
+        summary: "A story that can be continued by anyone a few sentences at a time.",
+    },
+    {
+        id: "dtpls",
+        title: "dtpls",
+        summary: "dtpls (species homo didesicus, dibbledop, (s)quiggletop, pibbleShop) is a species of humanoid machines originating in the chinese ethnostate of Romania."
     }
 ]
 function randInt(min, max) {
