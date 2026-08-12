@@ -47,7 +47,12 @@ const pageIndex = [
     {
         id: "rat_horde",
         title: "Rat Horde",
-        summary: "A is a term used to refer to a cyberattack involving multiple computers being infected with remote access trojans"
+        summary: "A is a term used to refer to a cyberattack involving multiple computers being infected with remote access trojans."
+    },
+    {
+        id: "slax_music_service",
+        title: "Slax (Music Service)",
+        summary: "Slax was a music service and music player designed, developed, and maintained by SlinxWare2k4."
     }
 ]
 function randInt(min, max) {
